@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+	xmlns:l="sap.ui.layout"
+	xmlns:model="sap.ui.model"
+    xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Table id="documentList"
+		items="{/ProductCollection}">
+		<headerToolbar>
+			<Toolbar>
+				<Label class="lcTableTile" text="Line Clearance Document List"></Label>
+				<ToolbarSpacer></ToolbarSpacer>
+				<!--  Add the Personalization button -->
+				<Button class="crtBtn" text="Create" press="handleProcDetail" />
+                <Button text="Edit" press="handleProcDetail" />
+                <Button text="Refresh" />
+				<!--  Add the Personalization button -->
+				<Button icon="sap-icon://action-settings" />
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+            <Column id="productColSel"><Text text="" /></Column>
+			<Column id="productCol" width="12em"><Text text="Process Order" /></Column>
+			<Column id="supplierCol" minScreenWidth="Tablet" demandPopin="true"><Text text="Work Center" /></Column>
+			<Column id="dimensionsCol" minScreenWidth="Tablet" demandPopin="true"><Text text="LC Status" /></Column>
+			<Column id="weightCol" minScreenWidth="Tablet" demandPopin="true"><Text text="Material" /></Column>
+			<Column id="priceCol"><Text text="Description" /></Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<CheckBox />
+                    <ObjectIdentifier title="{Name}" class="sapMTableContentMargin" />
+					<Text text="{SupplierName}" />
+					<Text text="{Width} x {Depth} x {Height} {DimUnit}" />
+					<Text text="{SupplierName}" />
+                    <Text text="{SupplierName}" />
+
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

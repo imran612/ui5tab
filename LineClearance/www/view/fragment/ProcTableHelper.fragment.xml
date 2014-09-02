@@ -1,0 +1,28 @@
+<core:FragmentDefinition
+	xmlns:l="sap.ui.layout"
+	xmlns:model="sap.ui.model"
+    xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Table id="procDetailTable"
+		items="{/ProductDetails}">
+      <columns>
+          
+			<Column id="workCenter1"><Text text="Work Center" /></Column>
+			<Column id="supplierCol1" minScreenWidth="Tablet" demandPopin="true" width="15em"><Text text="Material" /></Column>
+			<Column id="dimensionsCol1" minScreenWidth="Tablet" demandPopin="true"><Text text="Batch" /></Column>
+			<Column id="weightCol1" minScreenWidth="Tablet" demandPopin="true"><Text text="Customer" /></Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Text text="{SupplierName}" />
+					<Text text="{SupplierName}" />
+					<Text text="{SupplierName}" />
+                    <Text text="{SupplierName}" />
+                    
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>
