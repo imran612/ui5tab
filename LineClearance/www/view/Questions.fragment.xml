@@ -1,0 +1,62 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+     xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core">
+	<List id="procQues">
+        <InputListItem>
+            <Text text="Confirm ALL these items from the previous order have been removed and stored propery" />
+        </InputListItem>
+        <InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+            <Switch state="true" />
+        </InputListItem>
+        <InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+            <Switch state="true" />
+        </InputListItem>
+        <InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+            <Switch state="true" />
+        </InputListItem>
+        
+        <InputListItem>
+            <Text class="hdngTxt" text="Confirm ALL these items from the previous order have been removed and stored propery" />
+        </InputListItem>
+        <InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+            <Switch state="true" />
+        </InputListItem>
+        <InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+            <Switch state="true" />
+        </InputListItem>
+        <InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+            <Switch state="true" />
+        </InputListItem>
+
+
+<InputListItem>
+    <Text text="Confirm ALL these items from the previous order have been removed and stored propery" />
+</InputListItem>
+<InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+    <Switch state="true" />
+</InputListItem>
+<InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+    <Switch state="true" />
+</InputListItem>
+<InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+    <Switch state="true" />
+</InputListItem>
+
+<InputListItem>
+    <Text text="Confirm ALL these items from the previous order have been removed and stored propery" />
+</InputListItem>
+<InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+    <Switch state="true" />
+</InputListItem>
+<InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+    <Switch state="true" />
+</InputListItem>
+<InputListItem label="Confirm ALL these items from the previous order have been removed and stored propery">
+    <Switch state="true" />
+</InputListItem>
+
+
+
+  </List>
+</core:FragmentDefinition>

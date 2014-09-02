@@ -1,0 +1,23 @@
+{
+	"ProductDetails": [
+		{
+			"ProductId": "1239102",
+			"Name": "Process Order1",
+			"Category": "Projector",
+			"SupplierName": "Work Center1",
+			"Description": "A very powerful projector with special features for Internet usability, USB",
+			"WeightMeasure": 1467,
+			"WeightUnit": "g",
+			"Price": 856.49,
+			"CurrencyCode": "EUR",
+			"Quantity": 3,
+			"UoM": "PC",
+			"Width": 51,
+			"Depth": 42,
+			"Height": 18,
+			"DimUnit": "cm",
+			"ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/large_HT-6100.jpg"
+		}
+		
+	]
+}

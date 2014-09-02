@@ -1,0 +1,197 @@
+body{background-image:none!important;background:none repeat scroll 0 0 #B4C5DA!important}
+.sap-desktop .sapMBar.sapMPageHeader{background-color:#0065A8}
+.sapMBar-CTX .sapMBtnContent > .sapUiIcon{color:#FFF;text-shadow:0 1px 0 rgba(255,255,255,0.5)}
+.sapMGlobalBackgroundColor,.sapMGlobalBackgroundImage{background-color:transparent!important;background-image:none!important}
+.sapMListHdr,.sapMTB-Transparent-CTX .sapMLabel,.sapMLabel.sapMLabelTBHeader {text-shadow: none !important; }
+.sapMBar.sapMPageHeader::before {
+  border-top: none !important;
+}
+.sapMBtnInner,.sapMIBar-CTX .sapMBtnInner { text-shadow: none !important; color: #FFF !important;}
+.sapMBar.sapMPageHeader {
+ background: none !important;
+}
+.sapMText {
+ text-transform: none !important;
+}
+/*.sapMBar {
+ color: #FFF !important;
+ background-color: transparent !important;
+ text-shadow: none !important;
+ -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}*/
+#jblLogo,#jblLogo1,#jblLogo2 {
+  padding-left:10px;
+}
+#pageHdr,#pageHdr1,#pageHdr2 {
+   margin-top:18px;
+   background-color:rgb(146, 146, 186) !important;
+   height:3em !important;
+}
+#welHdr,#welHdr1,#welHdr2 {
+background-color: #fff !important;
+color:rgb(45, 45, 115) !important;
+font-weight: bold;
+height:40px;
+margin-top: -15px;
+}
+/*
+#RGLYT {
+   background-color: rgb(35, 35, 242);
+    width:95%;
+    margin-left:20px;
+    margin-top:20px;
+}*/
+h4#selForm--title.sapUiFormTitle.sapUiFormTitleH4 {
+ color:white;
+ background-color: rgb(15, 85, 142);
+}
+.sapMLabel {
+ color: black !important;
+font-size: 12px !important;
+font-weight: bold;
+}
+#selFormPanel {
+ margin-left: 20px !important;
+ margin-top:20px !important;
+ background-color:rgb(13, 68, 177) !important;
+}
+#selFormPanel-header,#lcDocProcPanel-header {
+ background-color:rgb(33, 33, 212);
+color:white;
+font-family: Arial;
+font-weight:bold;
+font-size:20px;
+}
+.sapUiFormResGrid>div, #lcBtn {
+ background-color: transparent  !important;
+ text-shadow: none !important;
+ -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+#lcStatus {
+  background-color:transparent  !important;
+  border-top: solid 1px white;
+ -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+#lcBtn-BarRight {
+background-color:green;
+}
+#subBtn {
+ color:white !important;
+ font-weight:bold;
+}
+#canBtn {
+background-color:grey;
+color:white;
+}
+#documentList,#lcDocProcPanel {
+ width: 95% !important;
+ margin-left:20px;
+  margin-top:10px;
+}
+#documentList-header {
+  background-color: rgb(133, 133, 239);
+}
+#documentList-listUl {
+ background-color: white !important;
+}
+#lcDocProcDetail {
+ background-color: green;
+}
+.sapMPanelHdr {
+ color: white !important;
+ text-shadow: none !important;
+}
+#infoTxt {
+ background-color: white;
+padding: 10px;
+text-transform: lowercase;
+font-size: 0.95rem;
+}
+#procQues-header {
+  background-color: grey;
+  color:white;
+}
+/*
+#quesSubHdr {
+  background-color: #D2D9DC;
+}
+li#quesSubHdr > div > label {
+  color: blue !important;
+  font-size: 0.75em !important;
+}*/
+
+div#procQues > ul li:first-child {
+   background-color: #D2D9DC;
+}
+
+div#procQues span {
+  color: blue !important;
+  font-size: 0.85em !important;
+  text-transform: none;
+  float:left;
+  margin-left: -15px;
+}
+div#procQues div>label {
+  max-width: none !important;
+}
+
+.quItm {
+  font-size: 0.56em!important;
+}
+.sapMILILabel {
+  font-size: 0.66em!important;
+}
+#remark, #esignlabel {
+ color:blue;
+margin-top:10px;
+
+}
+#remTxtArea {
+  width: 100%;
+}
+#eSignTxt1 {
+color: red;
+font-weight: bold;
+padding-bottom: 20px;
+}
+#eSignTxt2, #eSignTxt3 {
+color:blue;
+padding-bottom:5px;
+}
+#hLyt {
+ padding-top: 20px;
+}
+div#hLyt label {
+ color: blue !important;
+ padding-right:3px;
+}
+.selBtnHdr > div {
+background-color: rgb(117, 117, 185) !important;
+font-weight: bold !important;
+}
+.lcTableTile,div#documentList > div > label {
+  color: #FFF !important;
+}
+.crtBtn > div {
+ background-color: rgb(54, 185, 54) !important;
+}
+div#documentList > div {
+  background-color: rgb(117, 117, 185) !important;
+}
+#lcDocProcPanel > .sapMPanelHdr {
+  background-color: rgb(117, 117, 185) !important;
+}
+.procQsPanel {
+  background-color: rgb(126, 132, 127);
+  color:white;
+  text-transform: none;
+}
+#__item6,#__item10,#__item14 {
+ background-color: #D2D9DC;
+}
+/*#__panel0-CollapsedImg {
+background-color: rgb(189, 200, 207);
+}*/
