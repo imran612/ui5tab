@@ -25,7 +25,7 @@ sap.ui.controller("com.jbl.lnclr.tab.view.DocumentProc", {
                   handleESignDialog: function () {
                  // alert("f");
                  // var oModel = new sap.ui.model.json.JSONModel("model/products.json");
-                  this._eSignD = sap.ui.xmlfragment("com.jbl.lnclr.tab.view.ESignDialog",
+                  this._eSignD = sap.ui.xmlfragment("com.jbl.lnclr.tab.view.fragment.ESignDialog",
                                                      sap.ui.getCore().byId("DocumentProc").getController()
                                                     );
                   // this.getView().addDependent(this._valueHelpDialog);

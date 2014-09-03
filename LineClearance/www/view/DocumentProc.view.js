@@ -25,7 +25,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.DocumentProc", {
               var toolPD = new sap.m.Toolbar("procDetTB",{content:[new sap.m.Label({text:"Process Order:"}), new sap.m.Input({width:"50px"}), new sap.m.ToolbarSpacer(), new sap.m.Label({text:"Plant:"}),new sap.m.Text({text:"IL01"}),new sap.m.ToolbarSpacer(), new sap.m.Label({text:"LC Status:"}),new sap.m.Text({text:"New"})   ]  });
               
               lcDocProcDetail.addContent(toolPD);
-              lcDocProcDetail.addContent(sap.ui.xmlfragment("com.jbl.lnclr.tab.view.ProcTableHelper",oController));
+              lcDocProcDetail.addContent(sap.ui.xmlfragment("com.jbl.lnclr.tab.view.fragment.ProcTableHelper",oController));
               
              
             
@@ -44,7 +44,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.DocumentProc", {
               
               var lcDocProcQsPanel = new sap.m.Panel({headerText:"Process Questionnaires",expandable:true,expanded:false}).addStyleClass("procQsPanel");;
               
-              lcDocProcQsPanel.addContent(sap.ui.xmlfragment("com.jbl.lnclr.tab.view.Questions",oController));
+              lcDocProcQsPanel.addContent(sap.ui.xmlfragment("com.jbl.lnclr.tab.view.fragment.Questions",oController));
               
               lcDocProcPanel.addContent(lcDocProcQsPanel);
               

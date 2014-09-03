@@ -16,7 +16,7 @@ sap.ui.controller("com.jbl.lnclr.tab.view.Home", {
                   //if (!this._valueHelpDialog) {
                   var oModel = new sap.ui.model.json.JSONModel("model/products.json");
                   this._valueHelpDialog = sap.ui.xmlfragment(
-                                                             "com.jbl.lnclr.tab.view.Dialog",
+                                                             "com.jbl.lnclr.tab.view.fragment.Dialog",
                                                               sap.ui.getCore().byId("Home").getController()
                                                              );
                  // this.getView().addDependent(this._valueHelpDialog);

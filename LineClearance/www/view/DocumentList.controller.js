@@ -24,6 +24,9 @@ sap.ui.controller("com.jbl.lnclr.tab.view.DocumentList", {
                   handleProcDetail: function () {
                       sap.ui.getCore().byId("Home").getController().nav.to("DocumentProc");
  
+                  },
+                  handleProcTableSetting: function () {
+                    alert("table settings");
                   }
 });
 

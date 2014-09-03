@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>94368A1C-B9E3-42C6-B7AD-ECFC14BD0215</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LineClearance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7F531309-5458-49E8-815B-454C99A31527</key>
+		<string>https://github.com/imran612/ui5tab.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LineClearance/platforms/ios/LineClearance.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7F531309-5458-49E8-815B-454C99A31527</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/imran612/ui5tab.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7F531309-5458-49E8-815B-454C99A31527</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7F531309-5458-49E8-815B-454C99A31527</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ui5tab</string>
+		</dict>
+	</array>
+</dict>
+</plist>

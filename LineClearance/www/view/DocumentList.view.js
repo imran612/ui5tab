@@ -20,7 +20,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.DocumentList", {
               //  page.addContent(new sap.m.Text({text:"Welcome Imran",textAlign:sap.ui.core.TextAlign.Right}));
               page.addContent(new sap.m.Bar("welHdr1",{contentRight:new sap.m.Text({text:"Welcome Imran"})}));
              // var docTablePanel = new sap.m.Panel("docTablePanel",{headerText:"Line Clearance Document List",width:"95%"});
-              page.addContent(sap.ui.xmlfragment("com.jbl.lnclr.tab.view.DocumentTable",oController));
+              page.addContent(sap.ui.xmlfragment("com.jbl.lnclr.tab.view.fragment.DocumentTable",oController));
               
               //page.addContent(docTablePanel);
               return page;

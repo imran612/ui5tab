@@ -13,10 +13,10 @@ sap.ui.core.UIComponent.extend("com.jbl.lnclr.tab.Component", {
 		});
 
 		// set i18n model
-		/*var i18nModel = new sap.ui.model.resource.ResourceModel({
+		var i18nModel = new sap.ui.model.resource.ResourceModel({
 			bundleUrl : "i18n/messageBundle.properties"
 		});
-		oView.setModel(i18nModel, "i18n");*/
+		oView.setModel(i18nModel, "i18n");
 
 //		// Using OData model to connect against a real service
 //		var url = "/proxy/http/<server>:<port>/sap/opu/odata/sap/ZGWSAMPLE_SRV/";

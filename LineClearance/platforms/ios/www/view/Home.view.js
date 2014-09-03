@@ -6,7 +6,6 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.Home", {
 	
 	createContent: function (oController) {
 		
-            // alert(1);
               var page = new sap.m.Page({showHeader: true,
                                         showNavButton: false,
                                         alignItems:"center",
@@ -22,7 +21,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.Home", {
               
               
              
-              var selFormPanel = new sap.m.Panel("selFormPanel",{headerText:"Line Clearance Processing Selection",width:"95%"});
+              var selFormPanel = new sap.m.Panel("selFormPanel",{headerText:"{i18n>LCP}",width:"95%"});
              /* var selectionform = new sap.ui.layout.form.SimpleForm("selForm",{ maxContainerCols:2,
                                                                     content:[
                                                                               new sap.m.Label({text:"Plant"}),

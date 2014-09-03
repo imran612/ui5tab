@@ -6,7 +6,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.App", {
 	
 	createContent: function (oController) {
 		
-              alert("in app view");
+             // alert("in app view");
         // to avoid scroll bars on desktop the root view must be set to block display
 		this.setDisplayBlock(true);
         //this.app = new sap.m.SplitApp();
