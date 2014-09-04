@@ -24,7 +24,7 @@ sap.ui.controller("com.jbl.lnclr.tab.view.DocumentProc", {
                   },
                   handleESignDialog: function () {
                  // alert("f");
-                 // var oModel = new sap.ui.model.json.JSONModel("model/products.json");
+                  var oModel1 = new sap.ui.model.json.JSONModel();
                   this._eSignD = sap.ui.xmlfragment("com.jbl.lnclr.tab.view.fragment.ESignDialog",
                                                      sap.ui.getCore().byId("DocumentProc").getController()
                                                     );
@@ -32,14 +32,19 @@ sap.ui.controller("com.jbl.lnclr.tab.view.DocumentProc", {
                   //}
                   //this._valueHelpDialog.setModel(oModel);
                   // open value help dialog
+                  oModel1.eSign= this._eSignD;
+                  sap.ui.getCore().setModel(oModel1,"eSignModel");
                   this._eSignD.open();
 
                   
                   },
                   onDialogCloseButton: function (oEvent) {
                  // alert("in close");
-                  var sType = oEvent.getSource().data("dialogType");
-                  this[sType].close();
+                  console.log(oEvent);
+                 // var sType = oEvent.getSource().data("dialogType");
+                  var oModel1 = sap.ui.getCore().getModel("eSignModel");
+                  
+                   oModel1.eSign.close();
                   }
 });
 

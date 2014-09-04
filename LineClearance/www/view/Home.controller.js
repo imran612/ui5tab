@@ -55,6 +55,11 @@ sap.ui.controller("com.jbl.lnclr.tab.view.Home", {
                   evt.getSource().getBinding("items").filter([]);
                   
                   },
+                  scan32: function(evt) {
+                  //alert("in scan");
+                  scan100();
+
+                  },
                   
                  detailList : function(evt) {
                     sap.ui.getCore().byId("Home").getController().nav.to("DocumentList");
@@ -64,4 +69,31 @@ sap.ui.controller("com.jbl.lnclr.tab.view.Home", {
 function navigateToDetails(pageId, targetPage) {
     var page = sap.ui.getCore().byId(pageId);
     page.getController().nav.to(targetPage);
+}
+function scan100() {
+    
+    cordova.plugins.barcodeScanner.scan(
+                                        function (result) {
+                                        jQuery.sap.require("sap.m.MessageToast");
+                                       /* alert("We got a barcode\n" +
+                                              "Result: " + result.text + "\n" +
+                                              "Format: " + result.format + "\n");*/
+                                       // var oModel1 = sap.ui.getCore().getModel("listModel");
+                                        var productInput = sap.ui.getCore().byId("__input4");
+                                        //alert(productInput);
+                                        productInput.setValue(result.text);
+                                        sap.ui.getCore().byId("__input5").setValue(result.text);
+                                         sap.ui.getCore().byId("__input6").setValue(result.text);
+                                         sap.ui.getCore().byId("__input7").setValue(result.text);
+                                         sap.ui.getCore().byId("__input8").setValue(result.text);
+                                        
+                                        sap.m.MessageToast.show("Barcode scanned successfully.");
+                                        
+                                        },
+                                        function (error) {
+                                        alert("Scanning failed: " + error);
+                                        }
+                                        );
+    
+
 }

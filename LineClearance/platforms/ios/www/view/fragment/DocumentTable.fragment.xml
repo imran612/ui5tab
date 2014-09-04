@@ -15,7 +15,7 @@
                 <Button text="Edit" press="handleProcDetail" />
                 <Button text="Refresh" />
 				<!--  Add the Personalization button -->
-				<Button icon="sap-icon://action-settings" />
+				<Button icon="sap-icon://action-settings" press="handleProcTableSetting" />
 			</Toolbar>
 		</headerToolbar>
 		<columns>

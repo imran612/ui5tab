@@ -11,7 +11,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.Home", {
                                         alignItems:"center",
                                         });
               
-              page.setCustomHeader(new sap.m.Bar("pageHdr",{contentLeft: new sap.m.Image("jblLogo",{src:"img/jabil-logo.jpg",height:"30px"}),contentRight:new sap.m.Button({icon:"sap-icon://log"}) }));
+              page.setCustomHeader(new sap.m.Bar("pageHdr",{contentLeft: new sap.m.Image("jblLogo",{src:"img/jabil-logo.jpg",height:"30px"}),contentRight:[new sap.m.Button({icon:"sap-icon//bar-code",text:"Barcode Scanner",press:oController.scan32}).addStyleClass("selBtnHdr"),new sap.m.Button({icon:"sap-icon://log"}) ]}));
               
               //add welcome user text
             //  page.addContent(new sap.m.Text({text:"Welcome Imran",textAlign:sap.ui.core.TextAlign.Right}));
@@ -21,7 +21,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.Home", {
               
               
              
-              var selFormPanel = new sap.m.Panel("selFormPanel",{headerText:"{i18n>LCP}",width:"95%"});
+              var selFormPanel = new sap.m.Panel("selFormPanel",{headerText:"Line Clearance Processing",width:"95%"});
              /* var selectionform = new sap.ui.layout.form.SimpleForm("selForm",{ maxContainerCols:2,
                                                                     content:[
                                                                               new sap.m.Label({text:"Plant"}),
@@ -64,11 +64,11 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.Home", {
                                                                                 }),
                                                                 new sap.ui.layout.form.FormElement({
                                                             label: "PO From",
-                                                                                                   fields: [new sap.m.Input({type:sap.m.InputType.Text,tooltip:"Purchase Order From",showValueHelp:true,showSuggestion:true}), new sap.m.Input({type:sap.m.InputType.Text,showValueHelp:true,showSuggestion:true})
+                                                                                                   fields: [new sap.m.Input({type:sap.m.InputType.Text,tooltip:"Purchase Order",showValueHelp:true,showSuggestion:true}), new sap.m.Input({type:sap.m.InputType.Text,showValueHelp:true,showSuggestion:true})
                                                                                         ]
                                                                                     }),
                                                                                 new sap.ui.layout.form.FormElement({
-                                                                                                label: "WC From",
+                                                                                                label: "Work Center",
                                                                                                  fields: [new sap.m.Input({type:sap.m.InputType.Text,showValueHelp:true,showSuggestion:true}), new sap.m.Input({type:sap.m.InputType.Text,showValueHelp:true,showSuggestion:true})
                                                                                             ]
                                                                                         }),

@@ -7,7 +7,19 @@
 		title="PI Sheet Work Sheet Signatory"
 		class="sapUiPopupWithPadding" >
 		<content>
-			<Text text="Digital SIgnature System Signature with Authorization by SAP User ID or Password." />
+			<Text width="100%" text="Digital SIgnature System Signature with Authorization by SAP User ID or Password." />
+             <Label text="Signature" />
+            
+          
+            <Input
+                type="Text"
+                showSuggestion="true"
+                showValueHelp="true" >
+            </Input>
+            <Label text="Password" />
+            <Input
+            type="Password"
+            placeholder="Enter password ..." />
 		</content>
 		<beginButton>
 			<Button text="Cancel" app:dialogType="Std" press="onDialogCloseButton" />

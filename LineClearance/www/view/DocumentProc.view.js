@@ -59,7 +59,7 @@ sap.ui.jsview("com.jbl.lnclr.tab.view.DocumentProc", {
               
               var hrLyt=new sap.ui.layout.HorizontalLayout("hLyt");
               hrLyt.addContent(new sap.m.Label({text:"e-Sign Operation & Quality:"}));
-               hrLyt.addContent(new sap.m.Input({type:sap.m.InputType.Text,tooltip:"Purchase Order From",showValueHelp:true,showSuggestion:true}));
+              hrLyt.addContent(new sap.m.Input({type:sap.m.InputType.Text,valueHelpRequest:oController.handleESignDialog,showValueHelp:true,showSuggestion:true,}));
               
              eSignPanel.addContent(hrLyt);
               
