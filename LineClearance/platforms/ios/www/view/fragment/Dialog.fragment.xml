@@ -5,14 +5,14 @@
 		title="Plants"
 		class="sapUiPopupWithPadding"
         growingThreshold="10"
-		items="{/ProductCollection}"
+		items="{/plants}"
         search="_handleValueHelpSearch"
         confirm="_handleValueHelpClose"
         cancel="_handleValueHelpClose">
 		<StandardListItem
 			iconDensityAware="false"
 			iconInset="false"
-			title="{Name}"
-			description="{Productid}" />
+			title="{name}"
+			description="{desc}" />
 	</SelectDialog>
 </core:FragmentDefinition>

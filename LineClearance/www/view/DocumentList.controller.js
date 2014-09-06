@@ -6,9 +6,9 @@ sap.ui.controller("com.jbl.lnclr.tab.view.DocumentList", {
                   //var oModel = new sap.ui.model.json.JSONModel("model/products.json");
                   //this.getView().setModel(oModel);
                   // sap.ui.getCore().setModel(oModel);
-                  var oModel = new sap.ui.model.json.JSONModel("model/products.json");
+                 // var oModel = new sap.ui.model.json.JSONModel("model/products.json");
                   var oGroupingModel = new sap.ui.model.json.JSONModel({ hasGrouping: false});
-                  sap.ui.getCore().byId("DocumentList").setModel(oModel);
+                  sap.ui.getCore().byId("DocumentList").setModel(lcmod);
                    sap.ui.getCore().byId("DocumentList").setModel(oGroupingModel, 'Grouping');
                   
                   },

@@ -10,21 +10,21 @@ sap.ui.controller("com.jbl.lnclr.tab.view.Home", {
                   
                   },
                 handValueHelp: function (oController) {
-                 // alert("inside value help");
+                // alert("inside value help");
                   this.inputId = oController.oSource.sId;
                   // create value help dialog
                   //if (!this._valueHelpDialog) {
-                  var oModel = new sap.ui.model.json.JSONModel("model/products.json");
+                //  var oModel = new sap.ui.model.json.JSONModel("model/lcmodel.json");
                   this._valueHelpDialog = sap.ui.xmlfragment(
                                                              "com.jbl.lnclr.tab.view.fragment.Dialog",
                                                               sap.ui.getCore().byId("Home").getController()
                                                              );
                  // this.getView().addDependent(this._valueHelpDialog);
                   //}
-                  
-                  oModel.inputF=this.inputId;
-                  sap.ui.getCore().setModel(oModel,"listModel");
-                   this._valueHelpDialog.setModel(oModel);
+               // var mod = sap.ui.getCore().getModel();
+                   lcmod.inputF=this.inputId;
+                 //  sap.ui.getCore().setModel(oModel,"listModel");
+                   this._valueHelpDialog.setModel(lcmod);
                   // open value help dialog
                   this._valueHelpDialog.open();
                   },
@@ -46,8 +46,8 @@ sap.ui.controller("com.jbl.lnclr.tab.view.Home", {
                   //alert(oSelectedItem);
                   //alert(oSelectedItem.getTitle());
                   //if (oSelectedItem) {
-                  var oModel1 = sap.ui.getCore().getModel("listModel");
-                  var productInput = sap.ui.getCore().byId(oModel1.inputF);
+                 // var oModel1 = sap.ui.getCore().getModel("listModel");
+                  var productInput = sap.ui.getCore().byId(lcmod.inputF);
                   //alert(productInput);
                   productInput.setValue(oSelectedItem.getTitle());
                   

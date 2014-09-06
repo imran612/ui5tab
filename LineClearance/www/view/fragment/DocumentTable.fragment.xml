@@ -5,7 +5,7 @@
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
 	<Table id="documentList"
-		items="{/ProductCollection}">
+		items="{/orders}">
 		<headerToolbar>
 			<Toolbar>
 				<Label class="lcTableTile" text="Line Clearance Document List"></Label>
@@ -30,11 +30,11 @@
 			<ColumnListItem>
 				<cells>
 					<CheckBox />
-                    <ObjectIdentifier title="{Name}" class="sapMTableContentMargin" />
-					<Text text="{SupplierName}" />
-					<Text text="{Width} x {Depth} x {Height} {DimUnit}" />
-					<Text text="{SupplierName}" />
-                    <Text text="{SupplierName}" />
+                    <ObjectIdentifier title="{order}" class="sapMTableContentMargin" />
+					<Text text="{wc}" />
+					<Text text="{lcstatus}" />
+					<Text text="{mat}" />
+                    <Text text="{Description}" />
 
 				</cells>
 			</ColumnListItem>

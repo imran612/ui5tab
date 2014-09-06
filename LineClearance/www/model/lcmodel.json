@@ -1,0 +1,172 @@
+{
+	"plants": [
+		{
+			"name": "IL01",
+            "desc": "Illinois 01 Plant"
+        },
+               {
+               "name": "IL02",
+               "desc": "Illinois 02 Plant"
+               },
+               {
+               "name": "TN01",
+               "desc": "Tennessee 01 Plant"
+               },
+               {
+               "name": "TN02",
+                "desc": "Tennessee 02 Plant"
+               }
+		
+	],
+    "orders": [
+                       {
+                       "order": "8100000762",
+                       "wc": "IL010002",
+                       "lcstatus": "In Process",
+                       "mat": "NJ309072",
+                       "Description": "CHILI LID - MINI PEARL"
+               
+                       },
+               {
+               "order": "8100000763",
+               "wc": "IL010002",
+               "lcstatus": "New",
+               "mat": "NJ731876",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "810000074",
+               "wc": "IL010003",
+               "lcstatus": "New",
+               "mat": "NJ309077",
+               "Description": "85MM NATURAL LT WT CLOROX"
+               
+               },
+               {
+               "order": "8100000765",
+               "wc": "IL010004",
+               "lcstatus": "New",
+               "mat": "NJ731878",
+               "Description": "85MM NATURAL LT WT CLOROX"
+               
+               },
+               {
+               "order": "8100000766",
+               "wc": "IL010005",
+               "lcstatus": "New",
+               "mat": "NJ731878",
+               "Description": "CHILI LID - MINI PEARL"
+               
+               },
+               {
+               "order": "8100000767",
+               "wc": "IL010006",
+               "lcstatus": "New",
+               "mat": "NJ731879",
+               "Description": "CHILI LID - MINI PEARL"
+               
+               },
+               {
+               "order": "8100000768",
+               "wc": "IL010007",
+               "lcstatus": "New",
+               "mat": "NJ731880",
+               "Description": "85MM YELLOW LT WEIGHT"
+               
+               },
+               {
+               "order": "8100000769",
+               "wc": "IL010008",
+               "lcstatus": "Completed",
+               "mat": "NJ731881",
+               "Description": "85MM YELLOW LT WEIGHT"
+               
+               },
+               {
+               "order": "8100000770",
+               "wc": "IL010009",
+               "lcstatus": "Completed",
+               "mat": "NJ731882",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000771",
+               "wc": "IL010010",
+               "lcstatus": "Completed",
+               "mat": "NJ731883",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000772",
+               "wc": "IL010011",
+               "lcstatus": "Completed",
+               "mat": "NJ731884",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000773",
+               "wc": "IL010012",
+               "lcstatus": "Completed",
+               "mat": "NJ731885",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000774",
+               "wc": "IL010013",
+               "lcstatus": "Completed",
+               "mat": "NJ731876",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000775",
+               "wc": "IL010014",
+               "lcstatus": "Completed",
+               "mat": "NJ731876",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000776",
+               "wc": "IL010015",
+               "lcstatus": "In Process",
+               "mat": "NJ731876",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000778",
+               "wc": "IL010016",
+               "lcstatus": "In Process",
+               "mat": "NJ731876",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               },
+               {
+               "order": "8100000779",
+               "wc": "IL010017",
+               "lcstatus": "In Process",
+               "mat": "NJ731876",
+               "Description": "BLACK JACK  64 BTM ASSY WHITE"
+               
+               }
+               
+               
+                       ],
+    "proc": [
+             {
+             "order": "8100000762",
+             "wc": "IL010002",
+             "batch": "IL41070002",
+             "mat": "NJ731943   85MM YELLOW LT WEIGHT",
+             "customer": "614888  PERIMETER BRAND PACKAGING"
+             
+             }
+    
+    ]
+}
